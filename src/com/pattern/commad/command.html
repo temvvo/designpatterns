@@ -1,0 +1,48 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+	<title></title>
+	<meta name="generator" content="LibreOffice 6.4.6.2 (Linux)"/>
+	<meta name="created" content="2020-10-11T12:06:56.563967088"/>
+	<meta name="changed" content="2020-10-11T14:13:45.724625979"/>
+	<style type="text/css">
+		h2.cjk { font-family: "Noto Serif CJK SC" }
+		h2.ctl { font-family: "Lohit Devanagari" }
+	</style>
+</head>
+<body lang="en-US" dir="ltr"><h1>Design Patterns - Command Pattern 
+</h1>
+<p>Command pattern is a data driven design pattern and falls under
+behavioral pattern category. A request is wrapped under an object as
+command and passed to invoker object. Invoker object looks for the
+appropriate object which can handle this command and passes the
+command to the corresponding object which executes the command.</p>
+<h2 class="western">Implementation</h2>
+<p>We have created an interface <i>Order</i> which is acting as a
+command. We have created a <i>Stock</i> class which acts as a
+request. We have concrete command classes <i>BuyStock</i> and
+<i>SellStock</i> implementing <i>Order</i> interface which will do
+actual command processing. A class <i>Broker</i> is created which
+acts as an invoker object. It can take and place orders.</p>
+<p><i>Broker</i> object uses command pattern to identify which object
+will execute which command based on the type of command.
+<i>CommandPatternDemo</i>, our demo class, will use <i>Broker</i>
+class to demonstrate command pattern.</p>
+<p><img src="command_html_a75cd0b1ef0efaf8.jpg" name="Image1" alt="Command Pattern UML Diagram" align="bottom" width="560" height="420" border="0"/>
+
+</p>
+<p><br/>
+<br/>
+
+</p>
+<p><br/>
+<br/>
+
+</p>
+<p><br/>
+<br/>
+
+</p>
+</body>
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+	<title></title>
+	<meta name="generator" content="LibreOffice 6.4.6.2 (Linux)"/>
+	<meta name="created" content="2020-10-11T11:58:28.369047658"/>
+	<meta name="changed" content="2020-10-11T12:01:22.437411858"/>
+	<style type="text/css">
+		h2.cjk { font-family: "Noto Serif CJK SC" }
+		h2.ctl { font-family: "Lohit Devanagari" }
+	</style>
+</head>
+<body lang="en-US" dir="ltr"><h1>Design Pattern - Abstract Factory Pattern</h1>
+<p>Abstract Factory patterns work around
+a super-factory which creates other factories. This factory is also
+called as factory of factories. This type of design pattern comes
+under creational pattern as this pattern provides one of the best
+ways to create an object.</p>
+<p>In Abstract Factory pattern an interface is responsible for
+creating a factory of related objects without explicitly specifying
+their classes. Each generated factory can give the objects as per the
+Factory pattern.</p>
+<h2 class="western">Implementation</h2>
+<p>We are going to create a Shape interface and a concrete class
+implementing it. We create an abstract factory class AbstractFactory
+as next step. Factory class ShapeFactory is defined, which extends
+AbstractFactory. A factory creator/generator class FactoryProducer is
+created.</p>
+<p>AbstractFactoryPatternDemo, our demo class uses FactoryProducer to
+get a AbstractFactory object. It will pass information (CIRCLE /
+RECTANGLE / SQUARE for Shape) to AbstractFactory to get the type of
+object it needs.</p>
+<p><img src="abstractfactory_html_13a4eb4bc12a6069.jpg" name="Image1" alt="Abstract Factory Pattern UML Diagram" align="bottom" width="455" height="338" border="0"/>
+
+</p>
+<h2 class="western"><br/>
+<br/>
+
+</h2>
+<p><br/>
+<br/>
+
+</p>
+</body>
+</html>
